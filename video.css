@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.content{
+    width:30%;
+    top:30%;
+    position: absolute;
+}
+.left-col p{
+    font-size:90px;
+    color: aqua;
+    line-height: 110px;
+    float: left;
+}
+.left-col{
+    margin-left: 7%;
+}
+.right-col p{
+    float: right;
+    margin-right: 7%;
+    display: flex;
+    align-items: center;
+}
+#icon{
+    width: 90px;
+    cursor: pointer;
+
+}
+.right-col {
+    font-size: 19px;
+    color: coral;
+    font-weight: 400;
+    margin-right: 15px;
+}

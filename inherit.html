@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        class Person{
+            constructor(name,age){
+                this.name=name;
+                this.age=age;
+            }
+            present(){
+                return 'My name is '+this.name+' and age is '+this.age;
+            }
+        }
+        class Employee extends Person{
+            constructor(name,age,role){
+                super(name,age);
+                this.role=role;
+            }
+            show(){
+                return this.present()+' and role is '+this.role;
+            }
+        }
+        const em=new Employee("Pujitha",20,"Software Developer");
+        document.getElementById("demo").innerHTML=em.show();
+    </script>
+</body>
+
+
+</html>

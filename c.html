@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>//loops
+//while loop
+document.write("While loop");
+let i=5;
+while(i>0){
+    document.write(i);
+    i-=1;
+}
+document.write("For loop");
+//for loop
+for(let i=0;i<=5;i++){
+    document.write("<br>"+i)
+}
+//do-while loop
+document.write("do-while loop");
+j=0;
+do{
+    
+    document.write("<br>"+j);
+    j++;
+}while(j<=5);
+//for in loop
+let dict={name:"siva",age:23};
+for(let n in dict){
+    document.write("<br>"+dict[n]);
+}
+document.write("<br>");
+document.write("<br>");
+//for of loop
+let arr=[1,2,34,4,5];
+for(let x of arr){
+    document.write("<br>"+x);
+}
+</script>
+</head>
+</html>
